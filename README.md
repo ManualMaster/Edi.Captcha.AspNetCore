@@ -1,3 +1,10 @@
+# ManualMaster specific info
+This is the fork of Edi.Captcha library which we use for rendering the captcha control in web forms.
+
+However, the functionality we added has been merged into the main library: https://github.com/EdiWang/Edi.Captcha.AspNetCore/pull/8
+
+Consequently, `Edi.Captcha` library starting from version 3.11 should support our functionalities, so the official Nuget package can be used again. We can remove this repository at all as soon as we use `Edi.Captcha` version 3.11+ and it doesn't cause any issues.
+
 # Edi.Captcha.AspNetCore
 The Captcha module used in my blog
 
